@@ -3,21 +3,21 @@
 # Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
 
 # Comment to be posted to on first time issues
-newIssueWelcomeComment: >
+newIssueWelcomeComment: |
   Thanks for opening your first issue here! Be sure to follow the issue template!
-  ![Thaanks](https://media.giphy.com/media/uj8YbXjNuwZ7iFRD4n/giphy.gif)
+  ![Thanks]('https://media.giphy.com/media/uj8YbXjNuwZ7iFRD4n/giphy.gif')
 
 # Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
 
 # Comment to be posted to on PRs from first time contributors in your repository
-newPRWelcomeComment: >
+newPRWelcomeComment: |
   Thanks for opening this pull request! 
   ![welcome](https://media.giphy.com/media/l4JyOCNEfXvVYEqB2/giphy.gif)
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
 # Comment to be posted to on pull requests merged by a first time user
-firstPRMergeComment: >
+firstPRMergeComment: |
   Congrats on merging your first pull request! We are proud of you!
   ![Congrats!](https://media.giphy.com/media/g9582DNuQppxC/giphy.gif)
 
