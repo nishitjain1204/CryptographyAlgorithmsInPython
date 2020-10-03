@@ -11,11 +11,13 @@ newIssueWelcomeComment: >
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
   Thanks for opening this pull request! 
+  ![welcome](https://tenor.com/bjDmu.gif)
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: >
   Congrats on merging your first pull request! We here at behaviorbot are proud of you!
+  ![Congrats!](https://tenor.com/9A36.gif)
 
 # It is recommended to include as many gifs and emojis as possible!
