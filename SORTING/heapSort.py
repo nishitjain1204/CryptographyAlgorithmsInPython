@@ -1,5 +1,5 @@
-# heapify
-def heapify(arr, n, i):
+# main
+def main(arr, n, i):
    largest = i # largest value
    l = 2 * i + 1 # left
    r = 2 * i + 2 # right
@@ -13,21 +13,22 @@ def heapify(arr, n, i):
    if largest != i:
       arr[i],arr[largest] = arr[largest],arr[i] # swap
       # root.
-      heapify(arr, n, largest)
+      main(arr, n, largest)
 # sort
 def heapSort(arr):
    n = len(arr)
    # maxheap
    for i in range(n, -1, -1):
-      heapify(arr, n, i)
+      main(arr, n, i)
    # element extraction
    for i in range(n-1, 0, -1):
       arr[i], arr[0] = arr[0], arr[i] # swap
-      heapify(arr, i, 0)
+      main(arr, i, 0)
 # main
-arr = [2,5,3,8,6,5,4,7]
-heapSort(arr)
-n = len(arr)
-print ("Sorted array is")
-for i in range(n):
-   print (arr[i],end=" ")
+if __name__ == '__main__':
+   arr = [2,5,3,8,6,5,4,7]
+   heapSort(arr)
+   n = len(arr)
+   print ("Sorted array is")
+   for i in range(n):
+      print (arr[i],end=" ")
