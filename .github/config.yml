@@ -13,11 +13,11 @@ newIssueWelcomeComment: |
 newPRWelcomeComment: |
  Thanks for opening this pull request!  
  There may be some errors, **but don't worry!** We'll work through them with you! 👍🎉😄
- ![welcome](https://media.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif)
+ ![welcome](https://media.giphy.com/media/l4JyOCNEfXvVYEqB2/giphy.gif)
   
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
 
 # Comment to be posted to on pull requests merged by a first time user
 firstPRMergeComment: |
  Congrats on merging your first pull request! 🙌🎉⚡️
- ![cheers](https://media.giphy.com/media/f9RzoxHizH72k15FKS/giphy.gif)
+ ![cheers](https://media.giphy.com/media/g9582DNuQppxC/giphy.gif)
