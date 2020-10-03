@@ -1,6 +1,6 @@
 # Implementation of Affine Cipher in Python 
 
-# Extended Euclidean Algorithm for finding modular inverse 
+# Extended Euclidean Algorithm for finding modular inverse.
 # eg: modinv(7, 26) = 15 
 def egcd(a, b): 
 	x,y, u,v = 0,1, 1,0
