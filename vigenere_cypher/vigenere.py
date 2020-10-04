@@ -81,8 +81,7 @@ def decrypt(message, key, alphabet=string.ascii_uppercase):
                 ]
     return decrypted_message
 
-
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(
         description="Encrypt or decrypt string using Vigenère cypher"
     )
@@ -99,3 +98,6 @@ if __name__ == "__main__":
         print(encrypt(args.message, args.key))
     else:
         print(decrypt(args.message, args.key))
+
+if __name__ == "__main__":
+    main()
