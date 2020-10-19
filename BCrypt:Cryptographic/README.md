@@ -42,7 +42,7 @@
 
 
 ## * Output  :
-![](./output_1.png)
+![](./output1.png)
 
 ![](./output_2.png)
 
