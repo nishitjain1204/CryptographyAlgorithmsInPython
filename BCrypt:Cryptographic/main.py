@@ -60,9 +60,10 @@ if(user==users):
     else:
         print("Invaid Password")
        
-        time_taken=end - start
+    time_taken=end - start
         
-        print("\nTime taken :",time_taken)
+    print("\nTime taken :",time_taken)
+    
 else:
     print("\nUser does not exists")
 
