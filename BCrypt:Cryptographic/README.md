@@ -42,8 +42,9 @@
 
 
 ## * Output  :
-![Screenshot](./BCrypt:Cryptographic/output_1.png)
-![Screenshot](./BCrypt:Cryptographic/output_2.png)
+![](./output_1.png)
+
+![](./output_2.png)
 
 ## * References and further notes   :
 1. http://zetcode.com/python/bcrypt/
